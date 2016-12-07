@@ -1,0 +1,229 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-11-03 16:39:38
+ * @version $Id$
+ */
+
+.table {
+	background-color: #ffffff;
+	padding-top: 80px;
+}
+.table p, .exzam, .ab3, .tran {
+	overflow: hidden;
+}
+.table p a img, .ab3 a img, .exzam a img, .tran a img {
+	-webkit-transition: all 3s;
+	-o-transition: all 3s;
+	transition: all 3s;
+}
+.table p a:hover img {
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.exzam a:hover img {
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.ab3 a:hover img {
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.tran a:hover img {
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.table_cont .tp1 li {
+	float: left;
+}
+.table_cont .tp1 {
+	padding-bottom: 11px;
+}
+.table_cont .tp1 li.dazhe {
+	margin-right: 330px;
+}
+.table_cont .tp1 li a {
+	font-size: 26px;
+	color: #272727;
+}
+.table_cont .tp2 .tp3 {
+	width: 385px;
+	height: 330px;
+	background-color: #ad9e8c;
+}
+.table_cont .tp2 .tp3 ul {
+	padding-top: 30px;
+	padding-left: 35px;
+}
+.table_cont .tp2 .tp3 .canzhuo {
+	font-size: 60px;
+	color: white;
+	padding-bottom: 10px;
+}
+.table_cont .tp2 .tp3 .tl {
+	font-size: 44px;
+	color: white;
+	padding-bottom: 12px;
+}
+.table_cont .tp2 .tp3 .chakan {
+	font-size: 30px;
+	width: 155px;
+	height: 53px;
+	border: 1px solid white;
+	line-height: 53px;
+	text-align: center;
+}
+.table_cont .tp2 .tp3 .chakan a {
+	color: white;
+}
+.table_cont .tp2 .exzam {
+	position: relative;
+}
+.table_cont .tp2 .exzam1 {
+	position: absolute;
+	left: 26%;
+	top: 37%;
+	width: 375px;
+	height: 168px;
+	background-color: #b69c76;
+	opacity: 0.7;
+	text-align: center;
+}
+.table_cont .tp2 .exzam1 p {
+	color: white;
+	font-size: 24px;
+}
+.table_cont .tp2 .exzam1 .exzam2 {
+	padding-top: 37px;
+	padding-bottom: 14px;
+	position: relative;
+}
+.exzam2:after {
+	content: "";
+	position: absolute;
+	top: 69px;
+	left: 35px;
+	width: 300px;
+	border: 1px solid white;
+}
+.table_cont .tp2 .exzam1 .exzam3 {
+	padding-bottom: 9px;
+}
+.table_cont .btm {
+	padding-top: 25px;
+}
+.table_cont .btm .pos {
+	position: relative;
+	width: 710px;
+	height: 652px;
+}
+.table_cont .btm .ab {
+	position: absolute;
+}
+.table_cont .btm .ab1 {
+	top: 0;
+	left: 0;
+}
+.table_cont .btm .ab2 {
+	left: 0;
+	bottom: 0;
+}
+.table_cont .btm .ab3 {
+	top: 0;
+	right: 0;
+	color: white;
+}
+.table_cont .btm .ab3 ul {
+	position: absolute;
+	top: 35%;
+	left: 23%;
+	text-align: center;
+}
+.table_cont .btm .ab4 {
+	right: 0;
+	bottom: 0;
+}
+.table_cont .btm .ab3 .wala {
+	font-size: 24px;
+	padding-bottom: 16px;
+}
+.table_cont .btm .ab3 .jingxin {
+	font-size: 22px;
+	padding-bottom: 6px;
+}
+.table_cont .btm .ab3 .wu {
+	font-size: 20px;
+	padding-bottom: 30px;
+}
+.table_cont .btm .ab3 .zhizuo {
+	font-size: 16px;
+	width: 76px;
+	height: 26px;
+	border: 1px solid white;
+	line-height: 26px;
+	text-align: center;
+	margin-left: 58px;
+} 
+.table_cont .btm .ab3 .zhizuo a {
+	color: white;
+}
+.ceban {
+	background-image: url(../images/member_img-13.png);
+	margin-top: 72px;
+	height: 300px;
+}
+.tp .tp2 .whic {
+	margin-top: 40px;
+}
+.btm .hongmu {
+	position: relative;
+}
+.btm .hongmu ul {
+	position: absolute;
+	top: 46%;
+	left: 21%;
+	text-align: center;
+}
+.btm .hongmu ul li {
+	color: white;
+}
+.btm .hongmu ul .nihong {
+	font-size: 30px;
+	padding-bottom: 14px;
+}
+.btm .hongmu ul .kaoqi {
+	font-size: 22px;
+	padding-bottom: 5px;
+}
+.btm .hongmu ul .bazhe {
+	font-size: 30px;
+}
+.footbanner_cont {
+	background-image: url(../images/member_img-21.png);
+	height: 350px;
+	margin-top: 53px;
+}
+.footbanner {
+	position: relative;
+}
+.footbanner .tuangou a {
+	display: block;
+	width: 333px;
+	height: 82px;
+	border: 1px solid white;
+	line-height: 82px;
+	text-align: center;
+	color: white;
+	position: absolute;
+	left: 40%;
+	top: 48%;
+}
